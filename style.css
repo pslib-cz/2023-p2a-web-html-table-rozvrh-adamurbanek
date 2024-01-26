@@ -7,11 +7,36 @@ table, th, td {
     border-collapse: collapse;
 }
 
+tr {
+    text: 2em;
+}
+
 th {
-    padding: 1em;
+    padding: 0.5em;
+    background-color: lightgray;
 }
 
 td {
-    padding: 1em;
-    vertical-align: top;
+    padding: 0.5em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+p {
+    font-weight: normal;
+    padding: 0;
+}
+
+.hodiny{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+span {
+    font-weight: normal;
+}
+
+.ucitel {
+    font-size: 0.75em;
+    color: rgb(78, 78, 78);
 }
