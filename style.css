@@ -1,0 +1,23 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    vertical-align: top;
+}
